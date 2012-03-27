@@ -59,3 +59,11 @@ Exercise 9: Create sub-properties
 	1. Select 'hasIngredient' property in the Object property hierarchy
 	2. Press 'Add sub property' and name the sub-property
 	3. to create two sub-properties, hasTopping and hasBase
+
+Exercise 10: Create inverse properties
+------------------------------
+	1. Create 'isIngredient' property
+	2. Press 'Inverse properties'(+) on 'Description' view, which will pop up a dialog
+	3. Select 'hasIngredient' and Press OK
+	4. Create sub-properties of isIngredient, isBaseOf and isToppingOf
+	5. Make these sub-properties inverse

@@ -61,6 +61,32 @@
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasTopping">
         <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
+        <owl:inverseOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#isToppingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#isBaseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#isBaseOf">
+        <owl:inverseOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasBase"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#isIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#isIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#isIngredient">
+        <owl:inverseOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#isToppingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#isToppingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#isIngredient"/>
     </owl:ObjectProperty>
     
 
