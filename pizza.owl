@@ -43,9 +43,25 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasBase">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#hasIngredient -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasTopping">
+        <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
+    </owl:ObjectProperty>
     
 
 

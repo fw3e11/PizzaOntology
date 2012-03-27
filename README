@@ -53,3 +53,9 @@ Exercise 8: Create an object property
 	1. Switch to the 'Object Properties' Tab
 	2. Select 'topObjectProperty' --> Add sub property
 	3. Name the property to 'hasIngredient' using the 'Property Name Dialog' that pops up.
+
+Exercise 9: Create sub-properties
+------------------------------
+	1. Select 'hasIngredient' property in the Object property hierarchy
+	2. Press 'Add sub property' and name the sub-property
+	3. to create two sub-properties, hasTopping and hasBase
