@@ -47,3 +47,9 @@ Exercise 6&7: Use the 'Create Class Hierarchy' Tool to Create sub-classes
 	5. Continue --> Ensure 'Make sibling classes disjoint' ticked
 	6. Press 'Finish'
 	7. Repeat 3-6, whose Suffix is Topping.
+
+Exercise 8: Create an object property
+------------------------------
+	1. Switch to the 'Object Properties' Tab
+	2. Select 'topObjectProperty' --> Add sub property
+	3. Name the property to 'hasIngredient' using the 'Property Name Dialog' that pops up.
