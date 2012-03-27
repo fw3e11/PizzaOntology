@@ -29,6 +29,39 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Pizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaBase">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#PizzaTopping -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
 </rdf:RDF>
 
 
