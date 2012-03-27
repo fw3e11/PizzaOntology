@@ -37,3 +37,13 @@ Exercise 5: Make classes disjoint from each other
 	1. Select 'Pizza'
 	2. Press 'Disjoint classes' (+), which will bring up a dialog
 	3. Select multiple classes to be disjoint
+
+Exercise 6: Use the 'Create Class Hierarchy' Tool to Create sub-classes
+------------------------------
+	1. Select PizzaBase in the class hierarchy
+	2. Tools menu --> Create class hierarchy...
+	3. Suffix: Base
+	4. In the large text area, type 'DeepPan' (hit return) 'ThinAndCrispy'
+	5. Continue --> Ensure 'Make sibling classes disjoint' ticked
+	6. Press 'Finish'
+	7. Repeat 3-6, whose Suffix is Topping.
