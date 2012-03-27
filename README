@@ -7,3 +7,11 @@ Exercise 1
 	1. Do this.
 	2. Then do this.
 	3. Then do this.
+
+Exercise 2: Create a new OWL Ontology
+------------------------------
+	1. Start Protege.
+	2. Welcome dialog box --> Create new OWL ontology
+	3. Ontology ID --> Ontology IRI --> Replace the default URL with "http://www.pizza.com/ontologies/pizza.owl"
+	4. browse the physical location, name the file 'pizza.owl' --> Continue
+	5. Ontology format is 'RDF/XML' --> Finish
