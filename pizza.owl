@@ -62,6 +62,25 @@
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping">
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaBase"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 

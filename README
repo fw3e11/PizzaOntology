@@ -31,3 +31,9 @@ Exercise 4: Create classes
 	4. Select 'Pizza' --> Add sibling class
 	5. Enter a class name --> PizzaTopping --> OK
 	6. Repeat 4&5, whose class name is PizzaBase
+
+Exercise 5: Make classes disjoint from each other
+------------------------------
+	1. Select 'Pizza'
+	2. Press 'Disjoint classes' (+), which will bring up a dialog
+	3. Select multiple classes to be disjoint
