@@ -86,3 +86,8 @@ Exercise 13&14: Specify the domain and range for the property 'hasTopping'
 	3. Press Add(+)
 	4. The domain of 'hasTopping' is 'Pizza', while the range of 'hasTopping' is 'PizzaTopping'
 	5*. Progete did not fill in domain and range of the inverse property of 'hasTopping', which is 'isToppingOf'. So fill them in manually.
+
+Exercise 15: Specify the domain and range for the property 'hasBase', as well as its inverse property 'isBaseOf'
+------------------------------
+	Just like ex.13&14
+	!* Although we have specified the domains and ranges of various properties for the purposes of this tutorial, we generally advise against doing this. The fact that domain and range conditions do not behave as constraints and the fact that they can cause ‘unexpected’ classification results can lead problems and unexpected side effects. These problems and side effects can be particularly difficult to track down in a large ontology.

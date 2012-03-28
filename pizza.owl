@@ -47,6 +47,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasBase">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.pizza.com/ontologies/pizza.owl#PizzaBase"/>
         <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
     </owl:ObjectProperty>
     
@@ -74,6 +76,8 @@
     <!-- http://www.pizza.com/ontologies/pizza.owl#isBaseOf -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#isBaseOf">
+        <rdfs:range rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+        <rdfs:domain rdf:resource="http://www.pizza.com/ontologies/pizza.owl#PizzaBase"/>
         <owl:inverseOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasBase"/>
         <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#isIngredient"/>
     </owl:ObjectProperty>
