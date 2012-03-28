@@ -67,3 +67,9 @@ Exercise 10: Create inverse properties
 	3. Select 'hasIngredient' and Press OK
 	4. Create sub-properties of isIngredient, isBaseOf and isToppingOf
 	5. Make these sub-properties inverse
+
+Exercise 11: Make the property 'hasIngredient' transitive
+------------------------------
+	1. Select 'hasIngredient' on the 'Object property hierarchy' Tab
+	2. Tick 'Transitive' tick box on the 'Property Characteristics' Tab
+	3. Select 'isIngredientOf', which is inverse of 'hasIngredient', and ensure that the transitive tick box is ticked. It won't auto do it.
