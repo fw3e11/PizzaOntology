@@ -63,6 +63,8 @@
     <!-- http://www.pizza.com/ontologies/pizza.owl#hasTopping -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasTopping">
+        <rdfs:domain rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+        <rdfs:range rdf:resource="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"/>
         <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
         <owl:inverseOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#isToppingOf"/>
     </owl:ObjectProperty>

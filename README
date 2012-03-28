@@ -78,3 +78,10 @@ Exercise 12: Make the property 'hasBase' functional
 ------------------------------
 	1. Select 'hasBase'
 	2. Tick 'Functional' tick box
+
+Exercise 13&14: Specify the domain and range for the property 'hasTopping'
+------------------------------
+	1. Select hasTopping
+	2. In the view of Object Properties Description
+	3. Press Add(+)
+	4. The domain of 'hasTopping' is 'Pizza', while the range of 'hasTopping' is 'PizzaTopping'
