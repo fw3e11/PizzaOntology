@@ -73,3 +73,8 @@ Exercise 11: Make the property 'hasIngredient' transitive
 	1. Select 'hasIngredient' on the 'Object property hierarchy' Tab
 	2. Tick 'Transitive' tick box on the 'Property Characteristics' Tab
 	3. Select 'isIngredientOf', which is inverse of 'hasIngredient', and ensure that the transitive tick box is ticked. It won't auto do it.
+
+Exercise 12: Make the property 'hasBase' functional
+------------------------------
+	1. Select 'hasBase'
+	2. Tick 'Functional' tick box

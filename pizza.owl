@@ -46,6 +46,7 @@
     <!-- http://www.pizza.com/ontologies/pizza.owl#hasBase -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasBase">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:subPropertyOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasIngredient"/>
     </owl:ObjectProperty>
     
