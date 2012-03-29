@@ -91,3 +91,11 @@ Exercise 15: Specify the domain and range for the property 'hasBase', as well as
 ------------------------------
 	Just like ex.13&14
 	!* Although we have specified the domains and ranges of various properties for the purposes of this tutorial, we generally advise against doing this. The fact that domain and range conditions do not behave as constraints and the fact that they can cause ‘unexpected’ classification results can lead problems and unexpected side effects. These problems and side effects can be particularly difficult to track down in a large ontology.
+
+Exercise 16&17: Add a restriction: a Pizza must have a PizzaBase
+------------------------------
+	1. Select 'Pizza' from the class hierarchy on the 'Classes' Tab
+	2. Click 'Superclasses' (+) in the Description view
+	3. Switch to the 'Class expression editor' Tab
+	4. Type or 'drag and drop'
+	5. "hasBase some PizzaBase", I did not find it auto-completed.

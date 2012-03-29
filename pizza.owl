@@ -238,7 +238,14 @@
 
     <!-- http://www.pizza.com/ontologies/pizza.owl#Pizza -->
 
-    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Pizza">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.com/ontologies/pizza.owl#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
