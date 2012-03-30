@@ -99,3 +99,14 @@ Exercise 16&17: Add a restriction: a Pizza must have a PizzaBase
 	3. Switch to the 'Class expression editor' Tab
 	4. Type or 'drag and drop'
 	5. "hasBase some PizzaBase", I did not find it auto-completed.
+
+Exercise 18: Create a subclass of Pizza called NamedPizza
+------------------------------
+	1. Select Pizza from the class hierarchy on the Classes Tab
+	2. Create a new subclass of Pizza, and name it NamedPizza
+	3. Create a new subclass of NamedPizza, and name it MargheritaPizza
+	4. Add a comment to the class MargheritaPizza: A pizza that only has Mozarella and Tomato toppings
+
+Exercise 19&20: Create existential (some) restrictions on MargheritaPizza that acts along the property 'hasTopping' with a filler of MozzarellaTopping & TomatoTopping to specify that a MargheritaPizza has at least one MozzarellaTopping and at least one TomatoTopping.
+------------------------------
+	No tutorial this time.
