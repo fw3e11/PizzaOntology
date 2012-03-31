@@ -110,3 +110,10 @@ Exercise 18: Create a subclass of Pizza called NamedPizza
 Exercise 19&20: Create existential (some) restrictions on MargheritaPizza that acts along the property 'hasTopping' with a filler of MozzarellaTopping & TomatoTopping to specify that a MargheritaPizza has at least one MozzarellaTopping and at least one TomatoTopping.
 ------------------------------
 	No tutorial this time.
+
+Exercise 21: Create 'AmericanaPizza' by cloning and modifying the description of 'MargheritaPizza'
+------------------------------
+	1. Select 'MargheritaPizza'
+	2. Menu --> Edit --> Duplicate --> name it 'AmericanaPizza' --> OK
+	3. Select 'AmericanaPizza'
+	4. Add a restriction that 'hasTopping some PepperoniTopping'
