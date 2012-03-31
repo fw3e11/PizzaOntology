@@ -501,6 +501,15 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#AmericanHotPizza"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#AmericanaPizza"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#SohoPizza"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#MeatTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"/>

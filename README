@@ -122,3 +122,8 @@ Exercise 22: Create an AmericanHotPizza and a SohoPizza
 ------------------------------
 	1. AmericanHotPizza is AmericanaPizza plus JalapenoPepperTopping on it.
 	2. SohoPizza is MargheritaPizza with additional toppings of Olive and Parmezan cheese.
+
+Exercise 23: Make subclass of NamedPizza disjoint from each other
+------------------------------
+	1. Select MargheritaPizza
+	2. Menu --> Edit --> Make primitive siblings disjoint
