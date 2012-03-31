@@ -117,3 +117,8 @@ Exercise 21: Create 'AmericanaPizza' by cloning and modifying the description of
 	2. Menu --> Edit --> Duplicate --> name it 'AmericanaPizza' --> OK
 	3. Select 'AmericanaPizza'
 	4. Add a restriction that 'hasTopping some PepperoniTopping'
+
+Exercise 22: Create an AmericanHotPizza and a SohoPizza
+------------------------------
+	1. AmericanHotPizza is AmericanaPizza plus JalapenoPepperTopping on it.
+	2. SohoPizza is MargheritaPizza with additional toppings of Olive and Parmezan cheese.
