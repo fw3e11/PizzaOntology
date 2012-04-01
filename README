@@ -161,3 +161,7 @@ Exercise 31: Create a class to describe a 'VegetarianPizza'
 	2. Give 'VegetarianPizza' a necessary condition that is 'hasTopping only CheeseTopping or VegetableTopping'
 
 Exercise 32: Convert 'VegetarianPizzaa' into defined class
+
+Exercise 33-37: Create Closure Axioms on the 'hasTopping' property for subclasses of NamedPizza
+------------------------------
+	Right click the 'hasTopping some ****Topping' restriction and select 'Create closure axiom'.
