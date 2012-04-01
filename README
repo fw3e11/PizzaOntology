@@ -154,3 +154,8 @@ Exercise 30: Automated compute the subclass of CheesyPizza
 	Due to the fact that all of the individuals that are described by the classes ... are Pizza and they have at least one topping of CheeseTopping or the subclasses of CheeseTopping.
 	This work is automated computed by a reasoner, so make sure a reasoner has been started.
 	The result can be found from the 'Class hierarchy (inferred)' Tab, which is next to the 'Class hierarchy' Tab.
+
+Exercise 31: Create a class to describe a 'VegetarianPizza'
+------------------------------
+	1. Create a subclass of Pizza, and name it 'VegetarianPizza'
+	2. Give 'VegetarianPizza' a necessary condition that is 'hasTopping only CheeseTopping or VegetableTopping'
