@@ -522,7 +522,6 @@
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#MeatTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"/>
-            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
