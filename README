@@ -159,3 +159,5 @@ Exercise 31: Create a class to describe a 'VegetarianPizza'
 ------------------------------
 	1. Create a subclass of Pizza, and name it 'VegetarianPizza'
 	2. Give 'VegetarianPizza' a necessary condition that is 'hasTopping only CheeseTopping or VegetableTopping'
+
+Exercise 32: Convert 'VegetarianPizzaa' into defined class
