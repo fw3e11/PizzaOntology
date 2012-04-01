@@ -211,6 +211,20 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#CheesyPizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#CheesyPizza">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#DeepPanBase -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#DeepPanBase">
@@ -376,15 +390,6 @@
     
 
 
-    <!-- http://www.pizza.com/ontologies/pizza.owl#ProbeInconsistentTopping -->
-
-    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#ProbeInconsistentTopping">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
-        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping">
@@ -522,6 +527,7 @@
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#MeatTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

@@ -135,9 +135,11 @@ Exercise 24: ProbeInconsistentTopping, a subclass of both CheeseTopping and Vege
 	3. ProbeInconsistentTopping now is highlighted in red (Actually not)
 	4. The thing is to Start reasoner from Reasoner on Menu bar.
 
-Exercise 25: Find the problem and Remove the disjoint statement between CheeseTopping and VegetableTopping (to see what happens)
+Exercise 25&26: Find the problem and Remove the disjoint statement between CheeseTopping and VegetableTopping (to see what happens)
 ------------------------------
 	1. Select Probe --> Description --> Equivalent classes --> Nothing (?)
 	2. A box pops up.
 	3. Select CheeseTopping --> Disjoint classes --> Edit --> remove 'vegetable'
 	4. Reasoner --> Synchronize reasoner
+
+Exercise 27&28: Fix the ontology to the origin, and Create a sub class of Pizza called CheesyPizza that has at least one topping that is CheeseTopping.
