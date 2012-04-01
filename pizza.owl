@@ -214,13 +214,17 @@
     <!-- http://www.pizza.com/ontologies/pizza.owl#CheesyPizza -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#CheesyPizza">
-        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasTopping"/>
-                <owl:someValuesFrom rdf:resource="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </owl:Class>
     
 
