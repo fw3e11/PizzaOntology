@@ -376,6 +376,15 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#ProbeInconsistentTopping -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#ProbeInconsistentTopping">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#CheeseTopping"/>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#VegetableTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#RedPepperTopping">

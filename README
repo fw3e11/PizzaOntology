@@ -127,3 +127,10 @@ Exercise 23: Make subclass of NamedPizza disjoint from each other
 ------------------------------
 	1. Select MargheritaPizza
 	2. Menu --> Edit --> Make primitive siblings disjoint
+
+Exercise 24: ProbeInconsistentTopping, a subclass of both CheeseTopping and VegerableTopping
+------------------------------
+	1. Create a subclass of CheeseTopping named ProbeInconsistentTopping and comment it that this class should be inconsistent when the ontology is classified.
+	2. Ensure ProbeInconsistentTopping is selected, add its superclass, VegetableTopping
+	3. ProbeInconsistentTopping now is highlighted in red (Actually not)
+	4. The thing is to Start reasoner from Reasoner on Menu bar.
