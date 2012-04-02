@@ -136,7 +136,9 @@
 
     <!-- http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue"/>
+    <owl:DatatypeProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasCalorificContentValue">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </owl:DatatypeProperty>
     
 
 

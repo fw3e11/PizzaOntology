@@ -227,3 +227,7 @@ Exercise 50: Classify pizza individuals based on their hasCalorificContentValue
 ------------------------------
 	Classify --> Classes Tab --> Description View --> Members
 	A Reasoner must be working.
+
+Exercise 51: a pizza individual has only 1 calorific value
+------------------------------
+	Datatype Properties --> Characteristics --> Functional
