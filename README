@@ -222,3 +222,7 @@ Exercise 49: HighCalorificPizza and LowCalorificPizza, Classify, CalorificValue=
 	5. hasCalorificContentValue some integer [>= 400]
 	6. Command + D, which means to convert to defined class
 	7. Repeat 1-6, .[< 400]
+
+Exercise 50: Classify pizza individuals based on their hasCalorificContentValue
+------------------------------
+	Classify --> Classes Tab --> Description View --> Members
