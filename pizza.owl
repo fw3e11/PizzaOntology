@@ -893,9 +893,9 @@
     
 
 
-    <!-- http://www.pizza.com/ontologies/pizza.owl#QuattroFormaggio -->
+    <!-- http://www.pizza.com/ontologies/pizza.owl#ExampleQuattroFormaggio -->
 
-    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#QuattroFormaggio">
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#ExampleQuattroFormaggio">
         <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#FourCheesePizza"/>
         <hasCalorificContentValue rdf:datatype="&xsd;integer">723</hasCalorificContentValue>
     </owl:NamedIndividual>
