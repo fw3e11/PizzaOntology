@@ -657,6 +657,30 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#SpicyPizza -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#SpicyPizza">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Pizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasTopping"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.pizza.com/ontologies/pizza.owl#hasSpiciness"/>
+                                <owl:someValuesFrom rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Hot"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#ThinAndCrispyBase -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#ThinAndCrispyBase">

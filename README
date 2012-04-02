@@ -180,3 +180,7 @@ Exercise 39: Create a ValuePartition to represent the spiciness of pizza topping
 Exercise 40: Specify hasSpiciness restrictions on PizzaToppings
 ------------------------------
 	Add necessary condition 'hasSpiciness some Hot' to each of the bottom level PizzaToppings.
+
+Exercise 41: Create a SpicyPizza as a subclass of Pizza
+------------------------------
+	Create a subclass of Pizza, and name it SpicyPizza with existential restriction is 'hasTopping some (PizzaTopping and (hasSpiciness some Hot))'.
