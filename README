@@ -186,10 +186,15 @@ Exercise 41: Create a SpicyPizza as a subclass of Pizza
 	Create a subclass of Pizza, and name it SpicyPizza with existential restriction is 'hasTopping some (PizzaTopping and (hasSpiciness some Hot))'.
 	Then convert it into defined class
 
-Exercise 42-44: Cardinality Restriction
+Exercise 42-45: Cardinality Restriction
 ------------------------------
 	1. Create a subclass of Pizza, and name it 'InterestingPizza'
 	2. Superclass, edit 'hasTopping min 3'
 	3. convert to defined class
 	4. synchronize reasoner
 	5. Repeat 1-4, class = 'FourCheesePizza', cardinality restriction = 'has exactly 4'.
+
+Exercise 46:Create a datatype property caled hasCalorificContentValue
+------------------------------
+	1. Switch to the 'Datatype Properties' Tab
+	2. Select 'topDataProperty' --> Add sub property --> hasCalorificContentValue
