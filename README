@@ -184,3 +184,4 @@ Exercise 40: Specify hasSpiciness restrictions on PizzaToppings
 Exercise 41: Create a SpicyPizza as a subclass of Pizza
 ------------------------------
 	Create a subclass of Pizza, and name it SpicyPizza with existential restriction is 'hasTopping some (PizzaTopping and (hasSpiciness some Hot))'.
+	Then convert it into defined class
