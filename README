@@ -212,3 +212,13 @@ Exercise 48: Create a datatype restriction to state that all Pizzas have a calor
 	2. Class Description --> Pizza --> Superclass (+)
 	3. Data restriction create Tab
 	4. hasCalorificContentValue some integer
+
+Exercise 49: HighCalorificPizza and LowCalorificPizza, Classify, CalorificValue=400
+------------------------------
+	1. Classes Tab or Entities Tab
+	2. Create a subclass of Pizza
+	3. Description --> Superclass(+)
+	4. Class expression editor Tab
+	5. hasCalorificContentValue some integer [>= 400]
+	6. Command + D, which means to convert to defined class
+	7. Repeat 1-6, .[< 400]
