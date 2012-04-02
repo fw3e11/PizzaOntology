@@ -165,3 +165,14 @@ Exercise 32: Convert 'VegetarianPizzaa' into defined class
 Exercise 33-37: Create Closure Axioms on the 'hasTopping' property for subclasses of NamedPizza
 ------------------------------
 	Right click the 'hasTopping some ****Topping' restriction and select 'Create closure axiom'.
+
+Exercise 38: "Classify"
+
+Exercise 39: Create a ValuePartition to represent the spiciness of pizza toppings
+------------------------------
+	1. Create a new class as a subclass of Thing called ValuePartition
+	2. Create a subclass of ValuePartition called SpicinessValuePartition
+	3. Create three subclasses of SpicinessValuePartition, name them Hot, Medium, and Mild
+	4. Make Hot, Medium and Mild disjoint from each other
+	5. Object Property Tab --> create a new ObjectProperty called 'hasSpiciness' --> range == SpicinessValuePartition && functional
+	6. Equivalent classes --> Hot or Medium or Mild

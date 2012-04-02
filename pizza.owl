@@ -73,6 +73,15 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#hasSpiciness -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasSpiciness">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#hasTopping -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.com/ontologies/pizza.owl#hasTopping">
@@ -283,6 +292,14 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Hot -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Hot">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#JalapenoPepperTopping">
@@ -330,6 +347,22 @@
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#MeatTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Medium -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Mild -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Mild">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition"/>
     </owl:Class>
     
 
@@ -509,6 +542,23 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#SpicinessValuePartition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Hot"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Medium"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Mild"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#ValuePartition"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#SpicyBeefTopping -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#SpicyBeefTopping">
@@ -538,6 +588,12 @@
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#TunaTopping">
         <rdfs:subClassOf rdf:resource="http://www.pizza.com/ontologies/pizza.owl#SeafoodTopping"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#ValuePartition"/>
     
 
 
@@ -642,6 +698,14 @@
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#OnionTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#PepperTopping"/>
             <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#TomatoTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Hot"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Medium"/>
+            <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Mild"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
