@@ -194,7 +194,14 @@ Exercise 42-45: Cardinality Restriction
 	4. synchronize reasoner
 	5. Repeat 1-4, class = 'FourCheesePizza', cardinality restriction = 'has exactly 4'.
 
-Exercise 46:Create a datatype property caled hasCalorificContentValue
+Exercise 46: Create a datatype property caled hasCalorificContentValue
 ------------------------------
 	1. Switch to the 'Datatype Properties' Tab
 	2. Select 'topDataProperty' --> Add sub property --> hasCalorificContentValue
+
+Exercise 47: Create example pizza individuals
+------------------------------
+	1. Entities Tab --> Individuals by type --> Add individual --> 'ExampleMargherita'
+	2. Description --> Type --> Class hierarchy --> 'MargheritaPizza'
+	3. Property assertions --> Data property assertions -->Data property = 'hasCalorificContentValue' & type = 'integer' & value = '263'
+	4. Repeat 1-3, an instance of QuattroFormaggio with 723 calories.

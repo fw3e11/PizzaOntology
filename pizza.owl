@@ -816,6 +816,35 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#MargheritaPizza"/>
+        <hasCalorificContentValue rdf:datatype="&xsd;integer">263</hasCalorificContentValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#QuattroFormaggio -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#QuattroFormaggio">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#FourCheesePizza"/>
+        <hasCalorificContentValue rdf:datatype="&xsd;integer">723</hasCalorificContentValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // General axioms
     //
     ///////////////////////////////////////////////////////////////////////////////////////
