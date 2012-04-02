@@ -176,3 +176,7 @@ Exercise 39: Create a ValuePartition to represent the spiciness of pizza topping
 	4. Make Hot, Medium and Mild disjoint from each other
 	5. Object Property Tab --> create a new ObjectProperty called 'hasSpiciness' --> range == SpicinessValuePartition && functional
 	6. Equivalent classes --> Hot or Medium or Mild
+
+Exercise 40: Specify hasSpiciness restrictions on PizzaToppings
+------------------------------
+	Add necessary condition 'hasSpiciness some Hot' to each of the bottom level PizzaToppings.
