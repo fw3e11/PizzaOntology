@@ -240,3 +240,5 @@ Exercise 53: Make NonVegetarianPizza the complement of VegetarianPizza
 	2. "Pizza and not VegetarianPizza"
 
 Exercise 54-55: Add Pizza to the necessary and sufficient conditions for NonVegetarianPizza, and auto classify...
+
+Exercise 56-57: Create a subclass of NamedPizza called UnclosedPizza, whose necessary condition is 'hasTopping some MozzarellaTopping', and Classify... We can find that UnclosedPizza is neither a VegetarianPizza nor a NonVegetarianPizza.
