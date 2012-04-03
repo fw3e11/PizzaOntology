@@ -231,3 +231,12 @@ Exercise 50: Classify pizza individuals based on their hasCalorificContentValue
 Exercise 51: a pizza individual has only 1 calorific value
 ------------------------------
 	Datatype Properties --> Characteristics --> Functional
+
+Exercise 52: Create NonVegetarianPizza as a subclass of Pizza and make it disjoint to VegetarianPizza
+
+Exercise 53: Make NonVegetarianPizza the complement of VegetarianPizza
+------------------------------
+	1. Edit 'Pizza' in Superclasses of the Description View
+	2. "Pizza and not VegetarianPizza"
+
+Exercise 54-55: Add Pizza to the necessary and sufficient conditions for NonVegetarianPizza, and auto classify...
