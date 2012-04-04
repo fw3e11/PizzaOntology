@@ -242,3 +242,8 @@ Exercise 53: Make NonVegetarianPizza the complement of VegetarianPizza
 Exercise 54-55: Add Pizza to the necessary and sufficient conditions for NonVegetarianPizza, and auto classify...
 
 Exercise 56-57: Create a subclass of NamedPizza called UnclosedPizza, whose necessary condition is 'hasTopping some MozzarellaTopping', and Classify... We can find that UnclosedPizza is neither a VegetarianPizza nor a NonVegetarianPizza.
+
+Exercise 58: Create a class called Country, and populate it with some individuals
+------------------------------
+	1. Create Country as a subclass of Thing
+	2. Switch to 'Individual' Tab --> Select Country in Class hierarchy --> Create Intaly, America, England, France, and Germany

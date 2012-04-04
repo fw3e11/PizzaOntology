@@ -298,6 +298,12 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Country -->
+
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#DeepPanBase -->
 
     <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#DeepPanBase">
@@ -917,6 +923,22 @@
     
 
 
+    <!-- http://www.pizza.com/ontologies/pizza.owl#America -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#America">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#England -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#England">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita -->
 
     <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#ExampleMargherita">
@@ -931,6 +953,30 @@
     <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#ExampleQuattroFormaggio">
         <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#FourCheesePizza"/>
         <hasCalorificContentValue rdf:datatype="&xsd;integer">723</hasCalorificContentValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#France">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#Germany">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.pizza.com/ontologies/pizza.owl#Intaly -->
+
+    <owl:NamedIndividual rdf:about="http://www.pizza.com/ontologies/pizza.owl#Intaly">
+        <rdf:type rdf:resource="http://www.pizza.com/ontologies/pizza.owl#Country"/>
     </owl:NamedIndividual>
     
 
