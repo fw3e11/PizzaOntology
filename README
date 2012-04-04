@@ -247,3 +247,9 @@ Exercise 58: Create a class called Country, and populate it with some individual
 ------------------------------
 	1. Create Country as a subclass of Thing
 	2. Switch to 'Individual' Tab --> Select Country in Class hierarchy --> Create Intaly, America, England, France, and Germany
+
+Exercise 59: Create a hasValue restricion to specifiy that MozzarellaTopping has Italy as its country of origin
+------------------------------
+	1. Switch to the 'Object Properties' Tab --> Create a new object property called hasCountryOfOrigin
+	2. Switch to the 'Classes' Tab --> Select 'MozzarellaTopping' --> Class Description --> Superclasses(+) --> Class expression editor
+	3. hasCountryOfOrigin value Italy
