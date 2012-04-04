@@ -253,3 +253,9 @@ Exercise 59: Create a hasValue restricion to specifiy that MozzarellaTopping has
 	1. Switch to the 'Object Properties' Tab --> Create a new object property called hasCountryOfOrigin
 	2. Switch to the 'Classes' Tab --> Select 'MozzarellaTopping' --> Class Description --> Superclasses(+) --> Class expression editor
 	3. hasCountryOfOrigin value Italy
+
+Exercise 60: Convert the class Country into an enumerated class
+------------------------------
+	1. Classes --> Equivalent classes --> expression editor
+	2. {America, England, France, Germany, Italy}
+	3. Do not forget the curly brackets

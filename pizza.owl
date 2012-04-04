@@ -306,7 +306,19 @@
 
     <!-- http://www.pizza.com/ontologies/pizza.owl#Country -->
 
-    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Country"/>
+    <owl:Class rdf:about="http://www.pizza.com/ontologies/pizza.owl#Country">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#England"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#France"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#America"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Italy"/>
+                    <rdf:Description rdf:about="http://www.pizza.com/ontologies/pizza.owl#Germany"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
